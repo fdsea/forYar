@@ -1,0 +1,24 @@
+{
+  "name": "tst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "gulp": "gulp.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.1.0"
+  },
+  "dependencies": {
+    "gulp-css": "^0.1.0",
+    "gulp-rename": "^1.4.0",
+    "require-dir": "^1.2.0"
+  }
+}
