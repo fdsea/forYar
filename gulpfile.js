@@ -35,10 +35,6 @@ gulp.task('css', function(done) {
       browserSync.reload();
       done();
     });
-    gulp.watch("./dist/gateway.js").on('change', () => {
-      browserSync.reload();
-      done();
-    });
     gulp.watch('./app.js', gulp.series('js'));
     gulp.watch("./app.css", gulp.series('css'));
     gulp.watch("./app.css").on('change', () => {
